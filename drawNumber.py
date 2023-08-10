@@ -1,4 +1,4 @@
-import install_requirements #comment out after first time
+# import install_requirements #comment out after first time
 try:
     import sys, os
     stdout = sys.__stdout__
@@ -14,7 +14,7 @@ try:
     sys.stdout = stdout
     sys.stderr = stderr
 except:
-    import install_requirements
+    # import install_requirements
     import sys, os
     stdout = sys.__stdout__
     stderr = sys.__stderr__
